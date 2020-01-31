@@ -1,6 +1,6 @@
 # Fundamentos de Big Data <h6>
 
-Big data
+# Big data <h6>
 
 Big Data es un término que describe a un gran volumen de datos, (tanto estructurados como no estructurados) y su inmediato análisis para encontrar información oculta, patrones recurrentes, nuevas correlaciones, etc.; el conjunto de datos es tan grande y complejo que los medios tradicionales de procesamiento son ineficaces.
 
