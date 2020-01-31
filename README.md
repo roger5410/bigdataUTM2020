@@ -1,72 +1,105 @@
-# Fundamentos de Big Data 
+# Fundamentals of Big Data
 
 ## Big data
 
-Big Data es un término que describe a un gran volumen de datos, (tanto estructurados como no estructurados) y su inmediato análisis para encontrar información oculta, patrones recurrentes, nuevas correlaciones, etc.; el conjunto de datos es tan grande y complejo que los medios tradicionales de procesamiento son ineficaces.
+Big Data is a term that describes a large volume of data, (both structured and unstructured) and its immediate analysis to find hidden information, recurring patterns, new correlations, etc .; The data set is so large and complex that traditional means of processing are ineffective.
 
-## Datos abiertos y datos privados
+## Open data and private data
 
-Los Datos Abiertos es información digital que se encuentra bajo licencia y a disponibilidad de cualquier persona, y que cuenta únicamente con algunas estipulaciones, se incluyen aquellos datos del sector privado que las empresas deciden abrir para sus propios fines, por ejemplo, para satisfacer a posibles inversores o mejorar su reputación corporativa. Los hackathones que organizan las entidades financieras a partir de su propia información es una buena muestra de esta categoría de datos abierto.
-En contraposición, los datos cerrados frecuentemente restringen su uso, atándolo a licencias por consideraciones de privacidad o seguridad. Un ejemplo de datos cerrados incluye la información financiera a la cual solo puede acceder su dueño. Esto puede incluir datos de ventas propias de una compañía con fines de lucro, de otros consumidores o información corporativa que es considerada “sensible”.
+Open Data is digital information that is under license and availability of any person, and that specifically has some stipulations, includes data from the private sector that companies decide to open for their own fines, for example, to satisfy potential investors or improve your corporate reputation. The hackathones organized by financial institutions based on their own information is a good example of this category of open data.
+In contrast, closed data frequently restricts its use, tying it to licenses for privacy or security restrictions. An example of closed data includes financial information that can only be accessed by its owner. This may include sales data of a company with profit fines, other consumers or corporate information that is "sensitive."
 
-## Datos estructurados y no estructurados
+## Structured and unstructured data
 
-Los datos estructurados se componen de tipos de datos claramente definidos cuyo patrón los hace fáciles de buscar; mientras que los datos no estructurados se componen de datos que generalmente no son fáciles de buscar, incluidos formatos como audio, video y publicaciones en redes sociales.
+Structured data consists of clearly defined types of data whose pattern makes them easy to search; while unstructured data is made up of data that is generally not easy to search, including formats such as audio, video and social media publications.
 
-## Datos almacenados y datos en movimiento
+## Stored data and moving data
 
-Datos almacenados (o en reposo) es un término referido a datos inactivos que se encuentran almacenadas físicamente en cualquier formato digital (ej.: bases de datos, almacenes de datos, hojas de cálculo, archivos, cintas, backups remotos, dispositivos móviles, etc..).
-Los datos en movimiento son datos que están siendo transmitidos en una red. Los datos en movimiento son particularmente vulnerables a los atacantes, ya que ellos no necesitan estar cerca de la computadora en donde estos datos son almacenados: simplemente necesitan estar en algún punto del camino que esos datos están recorriendo.
+Stored data (or at rest) is a term referring to inactive data that is physically stored in any digital format (eg, databases, data stores, spreadsheets, files, tapes, remote backups, mobile devices, etc. ..).
+Moving data is data that is being transmitted on a network. Moving data is particularly vulnerable to attackers, since they do not need to be near the computer where this data is stored: they simply need to be at some point in the path that data is traveling.
 
-# Fundamentos de analisis de datos
+# Fundamentals of data analysis
 
-## Análisis de datos
+## Analysis of data
 
-Es el proceso de inspeccionar, limpiar, transformar y modelar datos con el fin de descubrir esa información útil que necesitamos.
-Podemos distinguir diferentes tipos de análisis de datos en función de cuál sea nuestro objetivo al realizarlo.
-* Si queremos saber Cómo actuar nos encontraremos con un Análisis Prescriptivo.
-* Si queremos saber Qué sucederá tendremos un Análisis Predictivo.
-* Si queremos saber Por qué ha sucedido estaremos ante un Análisis de tipo Diagnóstico.
-* Si queremos saber Qué hacer para que suceda tendremos un análisis Descriptivo.
+It is the process of inspecting, cleaning, transforming and modeling data in order to discover that useful information we need.
+We can distinguish different types of data analysis based on what our objective is to perform it.
+* If we want to know how to act we will find a Prescriptive Analysis.
+* If we want to know what will happen we will have a Predictive Analysis.
+* If we want to know why it has happened we will be facing a Diagnostic Analysis.
+* If we want to know what to do to make it happen we will have a descriptive analysis.
 
-## Impacto del análisis de datos en las organizaciones
+## Impact of data analysis in organizations
   
-En la actualidad se realiza la monetización de los datos, termino que se refiere al uso de los datos para obtener un beneficio económico cuantificable, esto incluye métodos tales como el intercambio y la venta de información a terceros.
-Por ello organizaciones de todo tipo y tamaño recolectan, almacenan, procesan e intercambian grandes volúmenes de información con el deseo de crear nuevos productos y servicios a partir de los datos que generen mayores beneficios, reduzcan los costes y refuercen la fidelidad de los clientes, y ofrezcan auténticas ventajas competitivas.
-Esto demuestra que el análisis de datos en el ámbito organizacional es de gran importancia ya que sirve como herramienta para conocer mejor a sus clientes y crear productos y servicios que cuenten con el exito que ellos tanto buscan.
+Currently, the monetization of the data is carried out, a term that refers to the use of the data to obtain a quantifiable economic benefit, this includes methods such as the exchange and sale of information to third parties.
+That is why organizations of all types and sizes collect, store, process and exchange large volumes of information with the desire to create new products and services from the data that generate greater benefits, reduce costs and reinforce customer loyalty, and offer authentic competitive advantages.
+This demonstrates that the analysis of data in the organizational field is of great importance as it serves as a tool to better know your customers and create products and services that have the success they both seek.
 
-# Comandos
+# Commands
 
-* Git init: Inicializa un nuevvo repositorio en la carpeta donde estemos posicionados.
+* Git init: Initializes a new repository in the folder where we are positioned.
 
-Ejemplo: git ini MiProyecto.
+Example: git ini MyProject.
 
-* Git status: Nos muestra el estado actual de los archivos nuevos, modificados o se tienen que trackear.
+* Git status: Shows the current status of new, modified or tracked files.
 
-Ejemplo: git status.
+Example: git status.
 
-* Git add "nom_archivo.extensión": Agrega un archivo para ser trackeado o para su revisión.
+* Git add "file_name.extension": Add a file to be tracked or for review.
 
-Ejemplo: git add Archivo.txt.
+Example: git add File.txt.
 
-* Git commit -m "mensaje": Trackea todos los archivos agregados con add permanentemente en el historial.
+* Git commit -m "message": Track all files added with permanently add in the history.
 
-Ejemplo: git commit -m "Versión 2"
+Example: git commit -m "Version 2"
 
-* Nano "nom_archivo.extension": Creamos o abrimos un archivo con el editor de texto nano en la carpeta donde nos encontremos.
+* Nano "filename.extension": We create or open a file with the nano text editor in the folder where we are.
 
-Ejemplo: Nano Archivo.txt
+Example: Nano File.txt
 
-* Git rm "nom_archivo.extensión": Elimina el archivo del árbol de trabajo y del índice.
+* Git rm "filename.extension": Deletes the file from the work tree and the index.
 
-Ejemplo: git rm Archivo.txt
+Example: git rm File.txt
 
-* Git log: Muestra el historial de la versión de cada rama y archivo al igual que los mensajes de cada commit.
+* Git log: Shows the version history of each branch and file as well as the messages of each commit.
 
-Ejemplo: git log
+Example: git log
 
-* Git diff: Muestra las diferencias de contenido entre 2 ramas.
+* Git diff: Shows the differences in content between 2 branches.
 
-Ejemplo: git diff
+Example: git diff
 
-# 
+# Concepts
+
+## MapReduce
+
+This process is divided into 2 processes, a Map that consists of dividing the data in the cluster and then a Reduce process that allows us to regroup the data and then these data allow us to make calculations to determine the information we need.
+
+## Hadoop
+
+It is a framework that allows distributed processing of large amounts of data using simple programming models on a machine cluster that makes use of the hard disk of the equipment in the cluster.
+
+## HDFS
+
+It is the Hadoop storage system, so if a node falls, we will have the data in the rest of the configured nodes.
+
+## Apache Spark
+
+It is a computer system of open clusters, unified analysis engine, ultrafast for Big Data and Machine Learning.
+Spark can be 100 times faster than Hadoop for large-scale data processing by exploiting memory computing and other optimizations.
+
+## Architecture Lambda and Kappa
+
+The architecture is divided into three parts: batch layer, serving layer (query layer) and speed layer (stream processing layer).
+
+* Batch layer. It manages the raw master data set and adds the new data to the existing ones, which are not modified.
+
+* Serving layer. Its mission is to index the batch views (static) and expose them so that they can be consulted optimally and in real time.
+
+* Speed ​​Layer. The analysis of the information that is not yet represented in the serving layer is the mission of the speed layer. To achieve instant response times, apply fast and incremental algorithms to recent data.
+
+## Docker container
+
+Docker packages software in standardized units called containers that include everything necessary for the software to run, including libraries, system tools, code and runtime. Each container runs on a Container Host, which can be a Windows or Linux machine.
+
+###### Roger Iván Argáez Cocom
