@@ -18,3 +18,14 @@ Datos almacenados y datos en movimiento
 Datos almacenados (o en reposo) es un término referido a datos inactivos que se encuentran almacenadas físicamente en cualquier formato digital (ej.: bases de datos, almacenes de datos, hojas de cálculo, archivos, cintas, backups remotos, dispositivos móviles, etc..).
 Los datos en movimiento son datos que están siendo transmitidos en una red. Los datos en movimiento son particularmente vulnerables a los atacantes, ya que ellos no necesitan estar cerca de la computadora en donde estos datos son almacenados: simplemente necesitan estar en algún punto del camino que esos datos están recorriendo.
 
+### Fundamentos de analisis de datos <h6>
+
+Análisis de datos
+
+Es el proceso de inspeccionar, limpiar, transformar y modelar datos con el fin de descubrir esa información útil que necesitamos.
+Podemos distinguir diferentes tipos de análisis de datos en función de cuál sea nuestro objetivo al realizarlo.
+-Si queremos saber Cómo actuar nos encontraremos con un Análisis Prescriptivo.
+-Si queremos saber Qué sucederá tendremos un Análisis Predictivo.
+-Si queremos saber Por qué ha sucedido estaremos ante un Análisis de tipo Diagnóstico.
+-Si queremos saber Qué hacer para que suceda tendremos un análisis Descriptivo.
+
