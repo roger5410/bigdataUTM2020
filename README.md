@@ -39,12 +39,34 @@ Esto demuestra que el análisis de datos en el ámbito organizacional es de gran
 
 * Git init: Inicializa un nuevvo repositorio en la carpeta donde estemos posicionados.
 
-git ini MiProyecto
+Ejemplo: git ini MiProyecto.
 
 * Git status: Nos muestra el estado actual de los archivos nuevos, modificados o se tienen que trackear.
+
+Ejemplo: git status.
+
 * Git add "nom_archivo.extensión": Agrega un archivo para ser trackeado o para su revisión.
+
+Ejemplo: git add Archivo.txt.
+
 * Git commit -m "mensaje": Trackea todos los archivos agregados con add permanentemente en el historial.
+
+Ejemplo: git commit -m "Versión 2"
+
 * Nano "nom_archivo.extension": Creamos o abrimos un archivo con el editor de texto nano en la carpeta donde nos encontremos.
+
+Ejemplo: Nano Archivo.txt
+
 * Git rm "nom_archivo.extensión": Elimina el archivo del árbol de trabajo y del índice.
+
+Ejemplo: git rm Archivo.txt
+
 * Git log: Muestra el historial de la versión de cada rama y archivo al igual que los mensajes de cada commit.
+
+Ejemplo: git log
+
 * Git diff: Muestra las diferencias de contenido entre 2 ramas.
+
+Ejemplo: git diff
+
+# 
