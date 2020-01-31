@@ -24,9 +24,8 @@ Análisis de datos
 
 Es el proceso de inspeccionar, limpiar, transformar y modelar datos con el fin de descubrir esa información útil que necesitamos.
 Podemos distinguir diferentes tipos de análisis de datos en función de cuál sea nuestro objetivo al realizarlo.
-
-- Si queremos saber Cómo actuar nos encontraremos con un Análisis Prescriptivo.
-+ Si queremos saber Qué sucederá tendremos un Análisis Predictivo.
+* Si queremos saber Cómo actuar nos encontraremos con un Análisis Prescriptivo.
+* Si queremos saber Qué sucederá tendremos un Análisis Predictivo.
 * Si queremos saber Por qué ha sucedido estaremos ante un Análisis de tipo Diagnóstico.
 * Si queremos saber Qué hacer para que suceda tendremos un análisis Descriptivo.
 
