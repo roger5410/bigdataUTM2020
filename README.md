@@ -106,6 +106,8 @@ Streaming processing system Kappa, proposes an architecture in four steps:
 
 * When the new table is ready, the application starts reading from that table, which is fed by the second processing flow.
 
+* Both the first processing flow and its associated table are eliminated.
+
 ## Docker container
 
 Docker packages software in standardized units called containers that include everything necessary for the software to run, including libraries, system tools, code and runtime. Each container runs on a Container Host, which can be a Windows or Linux machine.
