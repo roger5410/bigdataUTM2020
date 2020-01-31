@@ -34,3 +34,14 @@ Podemos distinguir diferentes tipos de análisis de datos en función de cuál s
 En la actualidad se realiza la monetización de los datos, termino que se refiere al uso de los datos para obtener un beneficio económico cuantificable, esto incluye métodos tales como el intercambio y la venta de información a terceros.
 Por ello organizaciones de todo tipo y tamaño recolectan, almacenan, procesan e intercambian grandes volúmenes de información con el deseo de crear nuevos productos y servicios a partir de los datos que generen mayores beneficios, reduzcan los costes y refuercen la fidelidad de los clientes, y ofrezcan auténticas ventajas competitivas.
 Esto demuestra que el análisis de datos en el ámbito organizacional es de gran importancia ya que sirve como herramienta para conocer mejor a sus clientes y crear productos y servicios que cuenten con el exito que ellos tanto buscan.
+
+# Comandos
+
+* Git init: Inicializa un nuevvo repositorio en la carpeta donde estemos posicionados.
+* Git status: Nos muestra el estado actual de los archivos nuevos, modificados o se tienen que trackear.
+* Git add "nom_archivo.extensión": Agrega un archivo para ser trackeado o para su revisión.
+* Git commit -m "mensaje": Trackea todos los archivos agregados con add permanentemente en el historial.
+* Nano "nom_archivo.extension": Creamos o abrimos un archivo con el editor de texto nano en la carpeta donde nos encontremos.
+* Git rm "nom_archivo.extensión": Elimina el archivo del árbol de trabajo y del índice.
+* Git log: Muestra el historial de la versión de cada rama y archivo al igual que los mensajes de cada commit.
+* Git diff: Muestra las diferencias de contenido entre 2 ramas.
