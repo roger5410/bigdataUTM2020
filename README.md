@@ -38,6 +38,7 @@ Esto demuestra que el análisis de datos en el ámbito organizacional es de gran
 # Comandos
 
 * Git init: Inicializa un nuevvo repositorio en la carpeta donde estemos posicionados.
+
 git ini MiProyecto
 
 * Git status: Nos muestra el estado actual de los archivos nuevos, modificados o se tienen que trackear.
