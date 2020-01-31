@@ -90,13 +90,21 @@ Spark can be 100 times faster than Hadoop for large-scale data processing by exp
 
 ## Architecture Lambda and Kappa
 
-The architecture is divided into three parts: batch layer, serving layer (query layer) and speed layer (stream processing layer).
+The architecture Lambda is divided into three parts: batch layer, serving layer (query layer) and speed layer (stream processing layer).
 
 * Batch layer. It manages the raw master data set and adds the new data to the existing ones, which are not modified.
 
 * Serving layer. Its mission is to index the batch views (static) and expose them so that they can be consulted optimally and in real time.
 
 * Speed ​​Layer. The analysis of the information that is not yet represented in the serving layer is the mission of the speed layer. To achieve instant response times, apply fast and incremental algorithms to recent data.
+
+Streaming processing system Kappa, proposes an architecture in four steps:
+
+* Kafka or a similar application for data intake and storage of data that can be reprocessed. You can dump the data to HDFS (disk) if there are memory limitations.
+
+* A streaming stream whose results are stored in an associated table. The client application queries this table. If it is necessary to reprocess the data, start a second processing flow to obtain a new table with the recomputed data.
+
+* When the new table is ready, the application starts reading from that table, which is fed by the second processing flow.
 
 ## Docker container
 
