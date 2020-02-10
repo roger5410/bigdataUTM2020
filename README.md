@@ -1,3 +1,5 @@
+###### Roger Iván Argáez Cocom
+
 # Fundamentals of Big Data
 
 ## Big data
@@ -112,4 +114,4 @@ Streaming processing system Kappa, proposes an architecture in four steps:
 
 Docker packages software in standardized units called containers that include everything necessary for the software to run, including libraries, system tools, code and runtime. Each container runs on a Container Host, which can be a Windows or Linux machine.
 
-###### Roger Iván Argáez Cocom
+
